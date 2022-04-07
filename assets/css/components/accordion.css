@@ -30,7 +30,7 @@ body {
 
 .faq-bg {
   background-color: var(--bg);
-  padding: 4.5rem 0;
+  padding-top: 4.5rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
