@@ -1,3 +1,6 @@
 @import "./base/base.css";
 @import "./config/variables.css";
 @import "./components/button.css";
+@import "./components/header.css";
+@import "./components/practice.css";
+@import "./components/challenges.css";
