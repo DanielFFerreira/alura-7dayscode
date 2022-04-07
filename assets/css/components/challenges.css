@@ -1,0 +1,93 @@
+.card-container {
+  color: var(--white);
+  height: 400px;
+  width: 355px;
+  box-shadow: 0 2px 24px var(--color-shadow);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container--spacing {
+  margin-top: 1.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container:hover {
+  border: 1px solid var(--yellow);
+  transition: .2s;
+}
+
+.card-container div {
+  border: 1px solid var(--yellow);
+  border-radius: 50%;
+  padding: 1.8rem;
+  text-align: center;
+}
+
+.card-container h4 {
+  font-size: 1.5rem;
+  font-family: "Inter",sans-serif;
+  font-weight: 700;
+}
+
+.card-container p {
+  font-size: .8rem;
+  font-weight: 300;
+  font-family: "Roboto Mono",sans-serif;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.card-container div, p {
+  margin-top: 1.8rem;
+  margin-bottom: 1.75rem;
+}
+
+.challenges__title {
+  color: var(--bg);
+  background-color: var(--yellow);
+  margin: 0 auto;
+  text-align: center;
+  width: 10rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.875rem;
+  padding: 0 0.2em;
+}
+
+.challenges__cards:first-child {
+  margin-top: unset;
+}
+
+.challenges__cards {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.brief-challenges {
+  text-align: center;
+  font-family: "Roboto mono",sans-serif;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  color: var(--white);
+  font-size: 1.75rem;
+}
+
+.background-square--yellow {
+  background-image: url(../../images/quadradinhosBG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 193px;
+  width: 100vw;
+  display: block;
+  background-position: bottom;
+  margin-bottom: 2.8rem;
+}
