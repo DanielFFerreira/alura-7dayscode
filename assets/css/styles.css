@@ -4,6 +4,7 @@
 @import "./components/header.css";
 @import "./components/practice.css";
 @import "./components/challenges.css";
+@import "./components/accordion.css";
 
 @media screen and (max-width: 359px) {
   .container-flex--image {
