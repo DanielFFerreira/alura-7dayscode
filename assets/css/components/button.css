@@ -9,7 +9,7 @@
   color: var(--bg);
 }
 
-.btn__default {
+.btn-default {
   border: 1px solid var(--white);
   background-color: var(--bg);
   color: var(--white);
@@ -17,7 +17,7 @@
 }
 
 .btn-yellow,
-.btn__default {
+.btn-default {
   padding: 1rem;
 }
 
