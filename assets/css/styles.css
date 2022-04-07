@@ -4,3 +4,68 @@
 @import "./components/header.css";
 @import "./components/practice.css";
 @import "./components/challenges.css";
+
+@media screen and (max-width: 359px) {
+  .container-flex--image {
+    height: 50vh;
+  }
+  .container-flex--image img {
+    width: 19rem;
+  }
+  .practice__title {
+    width: 14rem;
+  }
+  .challenges__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-container--spacing {
+    width: 100%;
+  }
+  .accordion .contentBox .label {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .container-flex--image img {
+    width: 21rem;
+  }
+  .practice__title {
+    width: 19rem;
+  }
+  .challenges__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-container--spacing {
+    width: 100%;
+  }
+  .accordion .contentBox .label {
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .card-container--spacing {
+    width: 355px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .challenges__cards,
+  .card-container--spacing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .challenges__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .accordion {
+    width: 61%;
+  }
+}
