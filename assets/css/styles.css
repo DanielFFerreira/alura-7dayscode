@@ -5,70 +5,40 @@
 @import "./components/practice.css";
 @import "./components/challenges.css";
 @import "./components/phrase.css";
+@import "./components/questions.css";
 @import "./components/accordion.css";
 @import "./components/footer.css";
 
-@media screen and (max-width: 359px) {
+@media screen and (min-width: 1px) {
+  .logo-image {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .container-flex--image {
     height: 50vh;
   }
-  .container-flex--image img {
-    width: 19rem;
+  .faq__title {
+    font-size: 0.8rem;
   }
-  .practice__title {
-    width: 14rem;
-  }
-  .challenges__cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .card-container--spacing {
-    width: 100%;
-  }
-  .accordion .contentBox .label {
-    padding-right: 0;
+  .questions {
+    margin-bottom: 3em;
   }
 }
 
 @media screen and (min-width: 360px) {
-  .container-flex--image img {
-    width: 21rem;
+  .container-flex--image {
+    height: 70vh;
   }
-  .practice__title {
-    width: 19rem;
+  .questions {
+    margin-bottom: 4.5em;
   }
-  .challenges__cards {
-    display: flex;
-    flex-wrap: wrap;
+  .questions__title {
+    font-size: 1.5rem;
+    width: 11rem;
+    margin: 0 auto;
   }
-  .card-container--spacing {
-    width: 100%;
-  }
-  .accordion .contentBox .label {
-    padding-right: 0;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .card-container--spacing {
-    width: 355px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .challenges__cards,
-  .card-container--spacing {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (min-width: 1250px) {
-  .challenges__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .accordion {
-    width: 61%;
+  .faq__title {
+    font-size: 1rem;
   }
 }

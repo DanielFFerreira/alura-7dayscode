@@ -1,6 +1,10 @@
 :root {
   --bg: #000000;
+  --blue-dark: #061B36;
+  --blue-light: #6bd1ff;
+  --bg-payment-blue: #093366;
   --yellow: #f9ff00;
   --white: #ffffff;
+  --white-200: #e5f1ff;
   --color-shadow: rgb(253 255 180 / 28%);
 }

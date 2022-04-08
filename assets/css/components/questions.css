@@ -1,0 +1,17 @@
+.questions {
+  position: relative;
+  margin-bottom: 9em;
+}
+
+.questions__title {
+  color: var(--yellow);
+  font-size: 2.1rem;
+  text-align: center;
+  margin: 4.7rem 0;
+}
+
+.questions-details {
+  display: block;
+  margin: 2rem auto;
+  width: 150px;
+}

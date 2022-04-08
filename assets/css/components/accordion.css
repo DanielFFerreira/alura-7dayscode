@@ -1,46 +1,22 @@
-:root {
-  --blue-dark: #061B36;
-  --white: #ffffff;
-  --white-200: #e5f1ff;
-  --blue-light: #6bd1ff;
-  --bg-payment-blue: #093366;
-}
-
-body {
-  color: var(--white);
-  font-family: 'Inter', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.container {
-  width: 1250px;
-  margin: 0 auto;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-}
-
 .faq-icon {
-  width:30px;
-  height: 30px;
+  width: 36px;
+  height: 34px;
 }
 
 .faq-bg {
   background-color: var(--bg);
-  padding-top: 4.5rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  cursor: pointer;
   flex-direction: column;
 }
 
 .faq {
   border-top: 2px solid var(--white);
-  padding: 1.25em 0;
+  padding: 0.7rem 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
 .faq:nth-child(5) {
@@ -70,7 +46,7 @@ body {
 }
 
 .faq.active .faq__title {
-  color: var(--blue-light);
+  color: var(--yellow);
 }
 
 .faq__answer {
@@ -86,7 +62,7 @@ body {
 
 .faq.active svg {
   transform: rotate(180deg);
-  fill: var(--blue-light);
+  fill: var(--yellow);
 }
 
 svg {
@@ -106,7 +82,6 @@ svg {
 
 /* Planos de pagamentos */
 .payment-plans-bg {
-  /* background: var(--bg-payment-blue); */
   padding: 2.112em 0;
 }
 
