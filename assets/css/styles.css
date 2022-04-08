@@ -36,10 +36,22 @@
     width: 11rem;
     margin: 0 auto;
   }
+  .faq__title {
+    font-size: 1.1rem;
+    width: 74%;
+  }
 }
 
 @media screen and (min-width: 760px) {
   .questions__title {
     width: 17rem;
+  }
+  .faq__title {
+    font-size: 1.2rem;
+    width: 74%;
+  }
+  .faq__description {
+    font-family: "Roboto Mono",sans-serif;
+    padding-right: 10rem;
   }
 }
