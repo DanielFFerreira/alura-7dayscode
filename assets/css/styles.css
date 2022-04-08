@@ -18,9 +18,7 @@
   .container-flex--image {
     height: 50vh;
   }
-  .faq__title {
-    font-size: 0.8rem;
-  }
+
   .questions {
     margin-bottom: 3em;
   }
@@ -38,7 +36,10 @@
     width: 11rem;
     margin: 0 auto;
   }
-  .faq__title {
-    font-size: 1rem;
+}
+
+@media screen and (min-width: 760px) {
+  .questions__title {
+    width: 17rem;
   }
 }
