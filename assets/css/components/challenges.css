@@ -1,21 +1,22 @@
+.challenges__cards {
+  margin-top: 2.6rem;
+  width: 90%;
+  margin: 2.2rem auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
 .card-container {
   color: var(--white);
   height: 400px;
-  width: 355px;
   box-shadow: 0 2px 24px var(--color-shadow);
   border-radius: 5px;
   border: 1px solid transparent;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.card-container--spacing {
-  margin-top: 1.8rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 1.5rem 0;
 }
 
 .card-container:hover {
@@ -65,12 +66,7 @@
   margin-top: unset;
 }
 
-.challenges__cards {
-  margin-top: 2.5rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
+
 
 .brief-challenges {
   text-align: center;

@@ -12,5 +12,6 @@
 
 .footer-divider {
   height: 1rem;
+  width: 100vw;
   background-color: #3f3d3d;
 }
