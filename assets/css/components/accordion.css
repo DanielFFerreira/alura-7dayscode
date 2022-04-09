@@ -19,10 +19,6 @@
   flex-direction: column;
 }
 
-.faq:nth-child(5) {
-  border-bottom: 2px solid var(--white);
-}
-
 .faq__question {
   display: flex;
   justify-content: space-between;
