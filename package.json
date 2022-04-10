@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DanielFreitasFerreira/alura-7dayscode/issues"
   },
-  "homepage": "https://github.com/DanielFreitasFerreira/alura-7dayscode#readme"
+  "homepage": "https://github.com/DanielFreitasFerreira/alura-7dayscode#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
 }
