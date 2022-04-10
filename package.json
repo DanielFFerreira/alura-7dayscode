@@ -1,0 +1,20 @@
+{
+  "name": "alura-7dayscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielFreitasFerreira/alura-7dayscode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielFreitasFerreira/alura-7dayscode/issues"
+  },
+  "homepage": "https://github.com/DanielFreitasFerreira/alura-7dayscode#readme"
+}
