@@ -1,13 +1,13 @@
-@import "./base/base.css";
-@import "./config/variables.css";
-@import "./components/button.css";
-@import "./components/header.css";
-@import "./components/practice.css";
-@import "./components/challenges.css";
-@import "./components/phrase.css";
-@import "./components/questions.css";
-@import "./components/accordion.css";
-@import "./components/footer.css";
+@use "./base/base.scss";
+@use "./config/variables.scss";
+@use "./components/button.scss";
+@use "./components/header.scss";
+@use "./components/practice.scss";
+@use "./components/challenges.scss";
+@use "./components/phrase.scss";
+@use "./components/questions.scss";
+@use "./components/accordion.scss";
+@use "./components/footer.scss";
 
 @media screen and (min-width: 1px) {
   .logo-image {

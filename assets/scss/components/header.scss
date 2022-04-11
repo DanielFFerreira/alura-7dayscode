@@ -1,0 +1,10 @@
+.main-background {
+  background-image: url(/assets/images/header-novo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-flex--image {
+  @include flex-center;
+  height: 70vh;
+}

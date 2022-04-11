@@ -1,13 +1,13 @@
 .questions {
   position: relative;
   margin-bottom: 9em;
-}
 
-.questions__title {
-  color: var(--yellow);
-  font-size: 2.1rem;
-  text-align: center;
-  margin: 4.7rem 0;
+  &__title {
+    color: var(--yellow);
+    font-size: 2.1rem;
+    text-align: center;
+    margin: 4.7rem 0;
+  }
 }
 
 .questions-details {
