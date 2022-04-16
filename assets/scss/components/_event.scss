@@ -1,0 +1,50 @@
+@mixin spacing-top-bottom {
+  margin: 2em 0;
+}
+
+.event {
+  padding: 1.5em;
+
+  &__description {
+    width: 100%;
+    font-size: 1.35em;
+    font-family: "Roboto Mono",sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    @include spacing-top-bottom();
+  }
+
+  &__list {
+    background-color: var(--bg);
+    box-shadow: 0 2px 24px rgb(253 255 180 / 28%);
+    padding: 1rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+    &:nth-child(-n+2) {
+      margin-bottom: 1em;
+    }
+  }
+
+  &__icon {
+    margin-right: 1rem;
+    width: 40px;
+    height: 40px;
+    background-color: var(--yellow);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+    }
+  }
+
+}
