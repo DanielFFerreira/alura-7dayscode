@@ -78,13 +78,13 @@
 
     &--user,
     &--email {
-      background-image: url('./images/icons/icon-pessoa.svg');
+      background-image: url('/assets/images/icons/icon-pessoa.svg');
       background-repeat: no-repeat;
       background-position: top 50% left 5%;
       background-size: 15px;
     }
     &--email {
-      background-image: url('./images/icons/icon-email.svg');
+      background-image: url('/assets/images/icons/icon-email.svg');
     }
   }
 
