@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,22 +10,55 @@
 
   <!-- Google fonts -->
   <link
-  href="https://fonts.googleapis.com/css?display=swap&amp;family=Roboto+Mono:ital,wght@0,300;0,400;1,400;0,700;0,800;0,800|Open+Sans:400,700,800,900|Inter:300,400,700,800,900|Noto+Serif:400,400i,700,700i"
-  rel="stylesheet" crossorigin="">
+    href="https://fonts.googleapis.com/css?display=swap&amp;family=Roboto+Mono:ital,wght@0,300;0,400;1,400;0,700;0,800;0,800|Open+Sans:400,700,800,900|Inter:300,400,700,800,900|Noto+Serif:400,400i,700,700i"
+    rel="stylesheet" crossorigin="">
 
   <link rel="stylesheet" href="assets/css/styles.css">
 
   <title>7days Of Code | Alura</title>
 </head>
-<body>
-  
-  <header class="main-background">
-    <div class="container-flex--image">
-      <img src="assets/images/logo-7days.svg" alt="Logo 7 days of code alura" class="logo-image">
+
+<body class="logica">
+
+  <header class="header">
+
+    <div class="header__logo-matricula">
+      <img src="/assets/images/logo-7days-matricula.svg" alt="">
+    </div>
+
+    <div class="header__container">
+
+      <div class="header__subscription">
+        <div class="header__registration">
+          <div class="header--logo">
+            <img src="/assets/images/icons/icon-logica-programacao-card.svg" alt="">
+            <h1>Lógica com Javascript</h1>
+          </div>
+          <div class="header__description">
+            <p>Você será desafiado por:</p>
+            <span>Rafaella Ballerini</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__form-container">
+        <form action="#" method="post" class="header__form">
+          <h3 class="header-title">Inscreva-se</h3>
+          <h4 class="header-subtitle">gratuitamente</h4>
+          <input type="text" id="header-input" class="header-input header-input--user" name="name" placeholder="Nome"
+            required>
+          <input type="text" id="header-input" class="header-input header-input--email" name="email" placeholder="Email"
+            required>
+          <button class="btn-registration">
+            Quero me inscrever já!
+          </button>
+        </form>
+      </div>
     </div>
   </header>
 
 
 
 </body>
+
 </html>

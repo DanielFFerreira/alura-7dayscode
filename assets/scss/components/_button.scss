@@ -16,6 +16,22 @@
   font-size: 1em;
 }
 
+.btn {
+  &-registration {
+    margin: 1.5rem;
+    width: 80%;
+    padding: 0.857rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #F9FF00;
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
 .btn-yellow,
 .btn-default {
   padding: 1rem;

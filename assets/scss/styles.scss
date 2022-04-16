@@ -2,6 +2,7 @@
 @use "./config/variables.scss";
 @use "./components/button.scss";
 @use "./components/header.scss";
+@use "./components/header-logica.scss";
 @use "./components/practice.scss";
 @use "./components/challenges.scss";
 @use "./components/phrase.scss";
@@ -44,6 +45,12 @@
     font-size: 1.1rem;
     width: 74%;
   }
+
+  .header {
+    &--logo {
+      flex-direction: row;
+    }
+  }
 }
 
 @media screen and (min-width: 460px) {
@@ -68,5 +75,29 @@
   .challenges__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .header {
+    height: 70vh;
+
+    &__logo-matricula {
+      margin-bottom: 2.7em;
+      padding: 0 10%;
+    }
+    
+    &__container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+    & img {
+      display: inline-block;
+    }
+    &__registration {
+      margin: 0;
+    }
+    &__form-container {
+      margin: 0;
+    }
   }
 }

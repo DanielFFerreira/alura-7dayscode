@@ -1,0 +1,109 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// header
+.header {
+  background-image: url('/assets/images/header-desk.png');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  padding: 2em;
+
+  &__registration {
+    max-width: 100%;
+    border: 5px solid #ffffff;
+    background-color: #000000;
+    padding: 3rem 1.5rem;
+    margin-top: 4em;
+  }
+
+  &--logo {
+    @include flex-center();
+    gap: 13px;
+    color: #ffffff;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin-top: 1em;
+
+    & p {
+      font-family: "Roboto Mono",sans-serif;
+      color: #ffffff;
+      font-size: 1.06rem;
+      margin-top: 2rem;
+    }
+    & span {
+      color: #EDE300;
+      font-size: 1.06rem;
+      font-family: "Roboto Mono",sans-serif;
+    }
+
+  }
+
+  &__form-container {
+    margin-top: 3em;
+    box-shadow: 0 2px 24px rgb(253 255 180 / 28%);
+  }
+
+  &__form {
+    background-color: #000000;
+    border-radius: 10px;
+    width: 100%;
+    @include flex-center();
+    flex-direction: column;
+    padding: 1.5em;
+    color: #ffffff;
+
+  }
+
+  &-input {
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid #F9FF00;
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 0.5rem;
+    padding: 1rem 2.5rem 1rem 13%;
+
+    &:hover {
+      outline: none;
+    }
+
+    &--user,
+    &--email {
+      background-image: url('./images/icons/icon-pessoa.svg');
+      background-repeat: no-repeat;
+      background-position: top 50% left 5%;
+      background-size: 15px;
+    }
+    &--email {
+      background-image: url('./images/icons/icon-email.svg');
+    }
+  }
+
+  &-title {
+    width: 80%;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &-subtitle {
+    color: #000;
+    background-color: #FFF;
+    font-weight: 800;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}

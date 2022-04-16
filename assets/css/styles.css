@@ -16,6 +16,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.logica {
+  background-color: var(--black-river);
+}
+
 a {
   text-decoration: none;
 }
@@ -31,6 +35,7 @@ a {
 :root {
   --bg: #000000;
   --blue-dark: #061B36;
+  --black-river: #14161c;
   --blue-light: #6bd1ff;
   --bg-payment-blue: #093366;
   --yellow: #f9ff00;
@@ -57,6 +62,20 @@ a {
   font-size: 1em;
 }
 
+.btn-registration {
+  margin: 1.5rem;
+  width: 80%;
+  padding: 0.857rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #F9FF00;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .btn-yellow,
 .btn-default {
   padding: 1rem;
@@ -77,6 +96,100 @@ a {
   align-items: center;
   justify-content: center;
   height: 70vh;
+}
+
+.header {
+  background-image: url("/assets/images/header-desk.png");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  padding: 2em;
+}
+.header__registration {
+  max-width: 100%;
+  border: 5px solid #ffffff;
+  background-color: #000000;
+  padding: 3rem 1.5rem;
+  margin-top: 4em;
+}
+.header--logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+  color: #ffffff;
+}
+.header__description {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin-top: 1em;
+}
+.header__description p {
+  font-family: "Roboto Mono", sans-serif;
+  color: #ffffff;
+  font-size: 1.06rem;
+  margin-top: 2rem;
+}
+.header__description span {
+  color: #EDE300;
+  font-size: 1.06rem;
+  font-family: "Roboto Mono", sans-serif;
+}
+.header__form-container {
+  margin-top: 3em;
+  box-shadow: 0 2px 24px rgba(253, 255, 180, 0.28);
+}
+.header__form {
+  background-color: #000000;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5em;
+  color: #ffffff;
+}
+.header-input {
+  width: 80%;
+  background-color: transparent;
+  border: 2px solid #F9FF00;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 0.5rem;
+  padding: 1rem 2.5rem 1rem 13%;
+}
+.header-input:hover {
+  outline: none;
+}
+.header-input--user, .header-input--email {
+  background-image: url("./images/icons/icon-pessoa.svg");
+  background-repeat: no-repeat;
+  background-position: top 50% left 5%;
+  background-size: 15px;
+}
+.header-input--email {
+  background-image: url("./images/icons/icon-email.svg");
+}
+.header-title {
+  width: 80%;
+  padding: 0.5rem;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header-subtitle {
+  color: #000;
+  background-color: #FFF;
+  font-weight: 800;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .practice {
@@ -380,6 +493,10 @@ svg {
     font-size: 1.1rem;
     width: 74%;
   }
+
+  .header--logo {
+    flex-direction: row;
+  }
 }
 @media screen and (min-width: 460px) {
   .challenges__cards {
@@ -405,6 +522,28 @@ svg {
   .challenges__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .header {
+    height: 70vh;
+  }
+  .header__logo-matricula {
+    margin-bottom: 2.7em;
+    padding: 0 10%;
+  }
+  .header__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .header img {
+    display: inline-block;
+  }
+  .header__registration {
+    margin: 0;
+  }
+  .header__form-container {
+    margin: 0;
   }
 }
 
