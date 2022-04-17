@@ -1,0 +1,41 @@
+.learning {
+  padding: 5.5em 1.5em;
+  text-align: center;
+
+  &__title,
+  &__text {
+    color: var(--bg);
+    font-weight: 900;
+    background-color: var(--yellow);
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    padding: 3px 7px;
+  }
+  &__text {
+    margin-top: 0.5em;
+  }
+  &__container {
+    margin-top: 7rem;
+    background-color: var(--bg);
+    box-shadow: 0 2px 24px rgb(57 246 235 / 42%);
+
+    &::before {
+      background-image: url('/assets/images/Quadradinhos-desktop-points.svg');
+      height: 411px;
+      width: 50vw;
+      top: -50%;
+      left: -50%;
+      background-size: cover;
+    }
+  }
+
+  &__description {
+    font-weight: 200;
+    line-height: 1.5;
+    font-size: 1.06rem;
+    text-align: center;
+    font-family: "Roboto Mono",sans-serif;
+  }
+}

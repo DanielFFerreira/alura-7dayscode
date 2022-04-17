@@ -3,6 +3,7 @@
 @use "./components/button.scss";
 @use "./components/header.scss";
 @use "./components/header-logica.scss";
+@use "./components/learn.scss";
 @use "./components/_event.scss";
 @use "./components/practice.scss";
 @use "./components/challenges.scss";
@@ -43,6 +44,11 @@
       }
     }
   }
+  .learning {
+    &__container {
+      padding: 2.2rem 2.6rem;
+    }
+  }
 }
 
 @media screen and (min-width: 360px) {
@@ -78,6 +84,7 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
     }
+    
   }
 }
 
@@ -142,6 +149,11 @@
       margin: 0;
     }
   }
+  .learning {
+    &__container {
+      padding: 4.4rem 5.8rem;
+    }
+  }
 }
 
 @media screen and (min-width: 999px) {
@@ -155,7 +167,48 @@
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: none;
     }
+    &__icon {
+      margin-right: 1rem;
+      width: 90px;
+      height: 60px;
+      background-color: var(--yellow);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      & img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+    
+      &:nth-child(-n+2) {
+        margin-bottom: 1em;
+      }
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+    
+      &:nth-child(-n+2) {
+        margin-bottom: 0;
+      }
+      &:nth-child(3) {
+        margin-bottom: 0;
+      }
+    }
   }
 }
+
+
+
+
 
 

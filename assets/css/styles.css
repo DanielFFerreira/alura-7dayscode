@@ -195,6 +195,44 @@ a {
   margin-bottom: 1rem;
 }
 
+.learning {
+  padding: 5.5em 1.5em;
+  text-align: center;
+}
+.learning__title, .learning__text {
+  color: var(--bg);
+  font-weight: 900;
+  background-color: var(--yellow);
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+}
+.learning__text {
+  margin-top: 0.5em;
+}
+.learning__container {
+  margin-top: 7rem;
+  background-color: var(--bg);
+  box-shadow: 0 2px 24px rgba(57, 246, 235, 0.42);
+}
+.learning__container::before {
+  background-image: url("/assets/images/Quadradinhos-desktop-points.svg");
+  height: 411px;
+  width: 50vw;
+  top: -50%;
+  left: -50%;
+  background-size: cover;
+}
+.learning__description {
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 1.06rem;
+  text-align: center;
+  font-family: "Roboto Mono", sans-serif;
+}
+
 .event {
   padding: 1.5em;
 }
@@ -209,7 +247,7 @@ a {
 .event__list {
   background-color: var(--bg);
   box-shadow: 0 2px 24px rgba(253, 255, 180, 0.28);
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .event__item {
   display: flex;
@@ -481,6 +519,9 @@ svg {
   margin-top: 3rem;
   color: var(--white);
 }
+.footer--disabled {
+  background-color: transparent;
+}
 
 .footer__content {
   display: flex;
@@ -528,6 +569,10 @@ svg {
   }
   .event__item:nth-child(3) {
     margin-bottom: 1em;
+  }
+
+  .learning__container {
+    padding: 2.2rem 2.6rem;
   }
 }
 @media screen and (min-width: 360px) {
@@ -618,6 +663,10 @@ svg {
   .header__form-container {
     margin: 0;
   }
+
+  .learning__container {
+    padding: 4.4rem 5.8rem;
+  }
 }
 @media screen and (min-width: 999px) {
   .event__description {
@@ -628,6 +677,40 @@ svg {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: none;
+  }
+  .event__icon {
+    margin-right: 1rem;
+    width: 90px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .event__icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  .event__item {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  .event__item:nth-child(-n+2) {
+    margin-bottom: 1em;
+  }
+  .event__item {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  .event__item:nth-child(-n+2) {
+    margin-bottom: 0;
+  }
+  .event__item:nth-child(3) {
+    margin-bottom: 0;
   }
 }
 

@@ -2,6 +2,10 @@
   background-color: var(--bg);
   margin-top: 3rem;
   color: var(--white);
+
+  &--disabled {
+    background-color: transparent;
+  }
 }
 
 .footer__content {
