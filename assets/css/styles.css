@@ -195,6 +195,22 @@ a {
   margin-bottom: 1rem;
 }
 
+.instructors__title {
+  padding: 3.5em 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+}
+.instructors__learning {
+  display: block;
+  background-color: var(--yellow);
+  color: var(--bg);
+  font-weight: 900;
+  width: fit-content;
+  margin: 0 auto 0.8rem;
+  padding: 0 0.2em;
+}
+
 .learning {
   padding: 5.5em 1.5em;
   text-align: center;
@@ -218,6 +234,7 @@ a {
   box-shadow: 0 2px 24px rgba(57, 246, 235, 0.42);
 }
 .learning__container::before {
+  content: "";
   background-image: url("/assets/images/Quadradinhos-desktop-points.svg");
   height: 411px;
   width: 50vw;
@@ -572,7 +589,7 @@ svg {
   }
 
   .learning__container {
-    padding: 2.2rem 2.6rem;
+    padding: 2rem 2.2rem;
   }
 }
 @media screen and (min-width: 360px) {
@@ -665,7 +682,7 @@ svg {
   }
 
   .learning__container {
-    padding: 4.4rem 5.8rem;
+    padding: 4.4rem 7.2rem;
   }
 }
 @media screen and (min-width: 999px) {

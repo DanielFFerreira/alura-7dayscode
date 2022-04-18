@@ -22,6 +22,7 @@
     box-shadow: 0 2px 24px rgb(57 246 235 / 42%);
 
     &::before {
+      content: '';
       background-image: url('/assets/images/Quadradinhos-desktop-points.svg');
       height: 411px;
       width: 50vw;

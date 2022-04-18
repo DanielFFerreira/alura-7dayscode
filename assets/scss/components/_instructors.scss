@@ -1,0 +1,23 @@
+.instructors {
+
+  &__title {
+    padding: 3.5em 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+
+  }
+  &__learning {
+    display: block;
+    background-color: var(--yellow);
+    color: var(--bg);
+    font-weight: 900;
+    width: fit-content;
+    margin: 0 auto 0.8rem;
+    padding: 0 0.2em;
+  }
+
+}
+
+
+

@@ -3,6 +3,7 @@
 @use "./components/button.scss";
 @use "./components/header.scss";
 @use "./components/header-logica.scss";
+@use "./components/instructors.scss";
 @use "./components/learn.scss";
 @use "./components/_event.scss";
 @use "./components/practice.scss";
@@ -46,7 +47,7 @@
   }
   .learning {
     &__container {
-      padding: 2.2rem 2.6rem;
+      padding: 2rem 2.2rem;
     }
   }
 }
@@ -151,7 +152,7 @@
   }
   .learning {
     &__container {
-      padding: 4.4rem 5.8rem;
+      padding: 4.4rem 7.2rem;
     }
   }
 }
@@ -206,7 +207,6 @@
     }
   }
 }
-
 
 
 
