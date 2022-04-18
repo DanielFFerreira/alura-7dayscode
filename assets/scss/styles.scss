@@ -4,7 +4,7 @@
 @use "./components/header.scss";
 @use "./components/header-logica.scss";
 @use "./components/instructors.scss";
-@use "./components/learn.scss";
+@use "./components/learning.scss";
 @use "./components/_event.scss";
 @use "./components/practice.scss";
 @use "./components/challenges.scss";
@@ -49,6 +49,30 @@
     &__container {
       padding: 2rem 2.2rem;
     }
+
+    &::before {
+      content: '';
+      display: block;
+      background-image: url('/assets/images/Quadradinhos-desktop-points.svg');
+      height: 16rem;
+      width: 85vw;
+      top: 25%;
+      z-index: -50;
+      left: -29%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+    }
+
+  }
+  .instructors {
+    &__container {
+      flex-direction: column;
+    }
+    &__list {
+      max-width: 80%;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -87,6 +111,7 @@
     }
     
   }
+  
 }
 
 @media screen and (min-width: 460px) {
@@ -106,6 +131,30 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
+    }
+  }
+
+  .learning {
+    &::before {
+      content: '';
+      display: block;
+      background-image: url('/assets/images/Quadradinhos-desktop-points.svg');
+      height: 420px;
+      width: 65vw;
+      top: 30%;
+      z-index: -50;
+      left: 30%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+    }
+  }
+  .instructors {
+    &__container {
+      flex-direction: row;
+    }
+    &__list {
+      max-width: 385px;
     }
   }
 
