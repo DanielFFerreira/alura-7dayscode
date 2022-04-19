@@ -35,9 +35,12 @@ a {
   padding: 2rem 1.5rem;
   width: 1150px;
 }
+.line-yellow { 
+  width: 100%;
+  height: 2px;
+  background-color: var(--yellow);
 
-@mixin flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  &--marginTop {
+    margin-top: 8em;
+  }
 }

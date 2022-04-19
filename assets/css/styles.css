@@ -36,6 +36,15 @@ a {
   width: 1150px;
 }
 
+.line-yellow {
+  width: 100%;
+  height: 2px;
+  background-color: var(--yellow);
+}
+.line-yellow--marginTop {
+  margin-top: 8em;
+}
+
 :root {
   --bg: #000000;
   --blue-dark: #061B36;
@@ -393,12 +402,6 @@ a {
 .practice__description,
 .practice .line-yellow {
   margin: 7.35rem auto 3.35rem auto;
-}
-
-.line-yellow {
-  width: 100%;
-  height: 2px;
-  background-color: var(--yellow);
 }
 
 .challenges__cards {
