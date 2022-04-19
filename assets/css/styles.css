@@ -123,6 +123,19 @@ a {
   gap: 13px;
   color: #ffffff;
 }
+.header--logo h1::after {
+  content: "|";
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+@keyframes pisca {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
 .header__description {
   display: flex;
   flex-direction: column;
