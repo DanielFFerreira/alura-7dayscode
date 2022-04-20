@@ -45,6 +45,18 @@ a {
   margin-top: 8em;
 }
 
+.title-yellow {
+  display: block;
+  background-color: var(--yellow);
+  color: var(--bg);
+  font-weight: 900;
+  width: fit-content;
+  margin: 0 auto 0.8rem;
+  padding: 0 0.2em;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+}
+
 :root {
   --bg: #000000;
   --blue-dark: #061B36;
@@ -232,15 +244,6 @@ a {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.875rem;
-}
-.instructors__learning {
-  display: block;
-  background-color: var(--yellow);
-  color: var(--bg);
-  font-weight: 900;
-  width: fit-content;
-  margin: 0 auto 0.8rem;
-  padding: 0 0.2em;
 }
 .instructors__list {
   max-width: 322px;
@@ -504,6 +507,10 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 1rem;
+}
+
+.timeChaller {
+  margin-top: 5em;
 }
 
 .questions {

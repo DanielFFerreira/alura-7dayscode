@@ -44,3 +44,15 @@ a {
     margin-top: 8em;
   }
 }
+
+.title-yellow {
+  display: block;
+  background-color: var(--yellow);
+  color: var(--bg);
+  font-weight: 900;
+  width: fit-content;
+  margin: 0 auto 0.8rem;
+  padding: 0 0.2em;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+}
