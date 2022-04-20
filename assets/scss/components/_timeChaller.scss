@@ -1,3 +1,54 @@
-.timeChaller {
+.challerDays {
   margin-top: 5em;
+  position: relative;
+
+  &__item {
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 24px;
+      top: 106px;
+      margin-top: 1.5rem;
+      background-color: var(--yellow);
+      height: 100%;
+      width: 1px;
+    }
+    &:last-child::before {
+      content: none;
+    }
+  }
+
+  &__title {
+    display: block;
+    font-weight: 700;
+    margin-left: 1.3em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--yellow);
+    font-size: 1.25rem;
+  }
+
+  &__decoration {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background-color: var(--yellow);
+    box-shadow: 0 0 3px var(--yellow);
+    border: 2px solid var(--yellow);
+    border-radius: 5px;
+    border-spacing: 20px;
+    // top: 128px;
+    left: 12px;
+  }
+
+  &__description {
+    font-family: "Roboto Mono",sans-serif;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.5;
+    margin-bottom: 3rem;
+    margin-left: 1.6em;
+  }
+
 }
