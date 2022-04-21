@@ -605,6 +605,7 @@ a {
 .faq__answer .faq__description {
   font-size: 1.15rem;
   line-height: 1.2;
+  padding: 1.6em 0;
 }
 
 .faq__title {
