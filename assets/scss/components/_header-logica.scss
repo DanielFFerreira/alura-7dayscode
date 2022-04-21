@@ -25,20 +25,6 @@
     @include flex-center();
     gap: 13px;
     color: #ffffff;
-
-    & h1::after {
-      content: '|';
-      opacity: 1;
-      animation: pisca .7s infinite;
-    }
-    @keyframes pisca{
-      0%, 100%{
-        opacity: 1;
-      }
-      50%{
-        opacity: 0;
-      }
-    }
   }
 
   &__description {

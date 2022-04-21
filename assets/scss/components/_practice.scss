@@ -11,6 +11,21 @@
     font-family: "Roboto mono",sans-serif;
     font-size: 1.75rem;
     font-weight: 600;
+    max-width: 33em;
+
+    &::after {
+      content: '|';
+      opacity: 1;
+      animation: pisca .7s infinite;
+    }
+    @keyframes pisca{
+      0%, 100%{
+        opacity: 1;
+      }
+      50%{
+        opacity: 0;
+      }
+    }
   }
   &__description {
     font-size: 1.06rem;

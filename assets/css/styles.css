@@ -144,19 +144,6 @@ a {
   gap: 13px;
   color: #ffffff;
 }
-.header--logo h1::after {
-  content: "|";
-  opacity: 1;
-  animation: pisca 0.7s infinite;
-}
-@keyframes pisca {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
 .header__description {
   display: flex;
   flex-direction: column;
@@ -396,6 +383,20 @@ a {
   font-family: "Roboto mono", sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
+  max-width: 33em;
+}
+.practice__title::after {
+  content: "|";
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+@keyframes pisca {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 .practice__description {
   font-size: 1.06rem;

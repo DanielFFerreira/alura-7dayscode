@@ -1,16 +1,12 @@
-const typing = document.querySelector('[data-js="typing"]');
+const msg = "Coloque em prática os seus conhecimentos em desafios diários 👩🏽‍💻!";
 
-const titleWhiter = ["Lógica com Javascript"];
+let titulo = document.querySelector('.practice__title');
 
-let messageIndex = 0;
-let characterIndex = 0;
-let currentMessage = '';
-let currentCharacters = '';
-
-const type = () => {
-  currentMessage = titleWhiter[messageIndex];
-  currentCharacters = currentMessage.slice(0, characterIndex++);
-  typing.textContent = currentCharacters;
+for (var i = 0; i < msg.length; i++) {
+  (function(position){
+    setTimeout(() => {
+      titulo.innerHTML += msg.charAt(position)
+    }, 160*position);
+  })(i);
 }
 
-setInterval(type, 150);
