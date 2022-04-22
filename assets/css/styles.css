@@ -37,7 +37,8 @@ a {
 }
 
 .line-yellow {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   height: 2px;
   background-color: var(--yellow);
 }
@@ -164,6 +165,10 @@ a {
 .header__form-container {
   margin-top: 3em;
   box-shadow: 0 2px 24px rgba(253, 255, 180, 0.28);
+}
+.header__form-container--width {
+  max-width: 350px;
+  margin: 0 auto;
 }
 .header__form {
   background-color: #000000;
@@ -406,6 +411,17 @@ a {
 .practice__description,
 .practice .line-yellow {
   margin: 7.35rem auto 3.35rem auto;
+}
+
+.backIncription {
+  background-image: url("/assets/images/img_inscricao.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  background-position: left top -8rem;
+}
+.backIncription--padd {
+  padding: 10em;
 }
 
 .challenges__cards {
@@ -745,6 +761,17 @@ svg {
     max-width: 80%;
     margin: 0 auto;
   }
+
+  .backIncription {
+    background-image: url("/assets/images/img_inscricao.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-position: left top -8rem;
+  }
+  .backIncription--padd {
+    padding: 2.4em;
+  }
 }
 @media screen and (min-width: 360px) {
   .container-flex--image {
@@ -852,8 +879,8 @@ svg {
   .header__registration {
     margin: 0;
   }
-  .header__form-container {
-    margin: 0;
+  .header__form-container--width {
+    margin: 0 auto;
   }
 
   .learning__container {

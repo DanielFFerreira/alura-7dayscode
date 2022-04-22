@@ -7,6 +7,7 @@
 @use "./components/learning.scss";
 @use "./components/_event.scss";
 @use "./components/practice.scss";
+@use "./components/backIncription.scss";
 @use "./components/challenges.scss";
 @use "./components/phrase.scss";
 @use "./components/timeChaller.scss";
@@ -73,6 +74,17 @@
     &__list {
       max-width: 80%;
       margin: 0 auto;
+    }
+  }
+  .backIncription {
+    background-image: url('/assets/images/img_inscricao.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-position: left top -8rem;
+  
+    &--padd {
+      padding: 2.4em;
     }
   }
 }
@@ -197,7 +209,12 @@
       margin: 0;
     }
     &__form-container {
-      margin: 0;
+
+      &--width {
+        // max-width: 100%;
+        margin: 0 auto;
+      }
+
     }
   }
   .learning {
@@ -205,6 +222,8 @@
       padding: 4.4rem 7.2rem;
     }
   }
+
+  
 }
 
 @media screen and (min-width: 999px) {

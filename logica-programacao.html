@@ -62,9 +62,9 @@
     </div>
   </header>
 
-  <main class="main container">
+  <main class="main">
 
-    <section class="event">
+    <section class="event container">
 
       <p class="event__description">
         Inscreva-se no 7 Days of Code <br> de Lógica de programação
@@ -98,7 +98,7 @@
       </ul>
     </section>
 
-    <section class="learning">
+    <section class="learning container">
       <h3 class="title-yellow">O que voce vai</h3>
       <p class="title-yellow">aprender?</p>
       <div class="learning__container">
@@ -110,7 +110,7 @@
       </div>
     </section>
 
-    <section class="instructors">
+    <section class="instructors container">
       <h3 class="instructors__title">
         <span class="title-yellow">Quem vai te</span>
         <span class="title-yellow">desafiar?</span>
@@ -142,12 +142,12 @@
 
     <div class="line-yellow line-yellow--marginTop"></div>
 
-    <section class="challerDays">
+    <section class="challerDays container">
 
       <h3 class="title-yellow">Quais serão</h3>
       <p class="title-yellow">os desafios?</p>
 
-      <ul class="challerDays__list container">
+      <ul class="challerDays__list">
 
         <li class="challerDays__item">
           <div class="challerDays__decoration"></div>
@@ -222,6 +222,24 @@
 
       </ul>
 
+    </section>
+
+    <section class="backIncription">
+      <div class="backIncription--padd">
+        <div class="header__form-container header__form-container--width">
+          <form action="#" method="post" class="header__form">
+            <h3 class="header-title">Inscreva-se</h3>
+            <h4 class="header-subtitle">gratuitamente</h4>
+            <input type="text" id="header-input" class="header-input header-input--user" name="name" placeholder="Nome"
+              required>
+            <input type="text" id="header-input" class="header-input header-input--email" name="email" placeholder="Email"
+              required>
+            <button class="btn-registration">
+              Quero me inscrever já!
+            </button>
+          </form>
+        </div>
+      </div>
     </section>
 
   </main>
