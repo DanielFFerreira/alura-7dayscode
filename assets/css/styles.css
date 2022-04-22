@@ -600,6 +600,9 @@ a {
   text-align: center;
   margin: 4.7rem 0;
 }
+.questions--margin {
+  margin-top: 3em !important;
+}
 
 .questions-details {
   display: block;
