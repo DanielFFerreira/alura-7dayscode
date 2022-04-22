@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="imagem/png" href="https://www.alura.com.br/assets/favicon.1647533642.ico" />
+
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?display=swap&amp;family=Roboto+Mono:ital,wght@0,300;0,400;1,400;0,700;0,800;0,800|Open+Sans:400,700,800,900|Inter:300,400,700,800,900|Noto+Serif:400,400i,700,700i"
+    rel="stylesheet" crossorigin="">
+
+  <!-- Remix icon css -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>7days Of Code | Alura</title>
+</head>
+
+<body class="logica">
+
+  <header class="header">
+
+    <div class="header__logo-matricula">
+      <a href="/">
+        <img src="/assets/images/logo-7days-matricula.svg" alt="">
+      </a>
+    </div>
+
+    <div class="header__container">
+
+      <div class="header__subscription">
+        <div class="header__registration header__registration--width">
+          <div class="header--logo">
+            <img src="/assets/images/icons/icon-java-card.svg" alt="" style="
+              width: 65px;
+              height: 74px;
+            ">
+            <h1>Java</h1>
+          </div>
+          <div class="header__description">
+            <p>Você será desafiado por:</p>
+            <span>Paulo Silveira</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__form-container">
+        <form action="#" method="post" class="header__form">
+          <h3 class="header-title">Inscreva-se</h3>
+          <h4 class="header-subtitle">gratuitamente</h4>
+          <input type="text" id="header-input" class="header-input header-input--user" name="name" placeholder="Nome"
+            required>
+          <input type="text" id="header-input" class="header-input header-input--email" name="email" placeholder="Email"
+            required>
+          <button class="btn-registration">
+            Quero me inscrever já!
+          </button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="event container">
+
+      <p class="event__description">
+        Inscreva-se no 7 Days of Code <br> de Lógica de programação
+      </p>
+
+      <ul class="event__list">
+        <li class="event__item">
+          <div class="event__icon">
+            <img src="/assets/images/icons/icon-evento-gratuito.svg" alt="">
+          </div>
+          <span>Coloque em prática seus estudos</span>
+        </li>
+        <li class="event__item">
+          <div class="event__icon">
+            <img src="/assets/images/icons/icon-evento-data.svg" alt="">
+          </div>
+          <span>7 desafios em 7 dias</span>
+        </li>
+        <li class="event__item">
+          <div class="event__icon">
+            <img src="/assets/images/icons/icon-email-gratuito.svg" alt="">
+          </div>
+          <span>Desenvolva seu portfólio e GitHub</span>
+        </li>
+        <li class="event__item">
+          <div class="event__icon">
+            <img src="/assets/images/icons/icon-premio-gratuito.svg" alt="">
+          </div>
+          <span>Criado por profissionais do mercado</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="learning container">
+      <h3 class="title-yellow">O que voce vai</h3>
+      <p class="title-yellow">aprender?</p>
+      <div class="learning__container">
+       
+        <p class="learning__description">
+          <strong>Durante os 7 Days de Java</strong>, você vai praticar algo que além de importantíssimo, será muito divertido. Você irá utilizar apenas APIs do Java para consumir uma API, puxando o ranking dos top 250 filmes do IMDB e devolvendo um JSON. Posteriormente, você irá começar a organizar uma modelagem que trabalhe com filmes (e talvez séries também) usando classes e interfaces. Você também terá que trabalhar com construtores, abstrações, comparadores, entre muitos outros conceitos que colocarão a prova os seus conhecimentos de Java.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="instructors container">
+      <h3 class="instructors__title">
+        <span class="title-yellow">Quem vai te</span>
+        <span class="title-yellow">desafiar?</span>
+      </h3>
+      <div class="instructors__container">
+        <ul class="instructors__list instructors__list--paulo">
+    
+          <article class="instructors__card">
+            <h4 class="instructors__name">Paulo Silveira</h4>
+            <p class="instructors__description">
+              Paulo Silveira é CEO e fundador da Alura. Ex-dev Java, apaixonado por entender como a JVM funciona.
+            </p>
+            <div class="instructors__links">
+              <i class="ri-twitter-fill"></i>
+              <a href="#">Twitter</a>
+              <i class="ri-linkedin-box-fill icon"></i>
+              <a href="#">Linkedin</a>
+              <i class="ri-instagram-fill icon"></i>
+              <a href="#">Instagram</a>
+            </div>
+          </article>
+
+        </ul>
+
+        <p class="instructors__text">
+          As pessoas mais criativas são motivadas pelos maiores problemas que se apresentam perante delas. - Neil deGrasse Tyson
+        </p> 
+
+      </div> 
+    </section>
+
+    <div class="line-yellow line-yellow--marginTop"></div>
+
+    <h3 class="title-yellow">Quais serão</h3>
+    <p class="title-yellow">os desafios?</p>
+
+    <section class="challerDays container">
+
+      <ul class="challerDays__list">
+
+        <li class="challerDays__item">
+          <div class="challerDays__decoration"></div>
+          <span class="challerDays__title">Dia 1</span>
+          <div class="challerDays__container">
+            <p class="challerDays__description">
+              Já no primeiro dia, você vai fazer o seu código Java consumir a API do IMDB, buscar os top 250 filmes da lista deles e imprimir o JSON correspondente no console.
+            </p>
+          </div>
+        </li>
+
+        <li class="challerDays__item">
+          <div class="challerDays__decoration"></div>
+          <span class="challerDays__title">Dia 2</span>
+          <div class="challerDays__container">
+            <p class="challerDays__description">
+              Nesse dia, você irá parsear a resposta JSON obtida a partir do IMDB para extrair as suas informações e atributos (como título, pôster, nota, etc).
+            </p>
+          </div>
+        </li>
+
+        <li class="challerDays__item">
+          <div class="challerDays__decoration"></div>
+          <span class="challerDays__title">Dia 3</span>
+          <div class="challerDays__container">
+            <p class="challerDays__description">
+              Aqui, você vai começar a modelar o seu código de uma maneira melhor, pensando um pouco sobre Orientação a Objetos. Você criará uma estrutura 'Movie' (Filme) com alguns atributos, com o intuito de que cada objeto desse tipo encapsule seus próprios dados.
+            </p>
+          </div>
+        </li>
+
+        <li class="challerDays__item">
+          <div class="challerDays__decoration"></div>
+          <span class="challerDays__title">Dia 4</span>
+          <div class="challerDays__container">
+            <p class="challerDays__description">
+              Chegou a hora de brincar com HTML! No desafio de hoje, você vai trabalhar com a saída e gerar uma página HTML a partir da lista de objetos que você obteve anteriormente. A ideia será criar uma página HTML onde você possa ver as informações sobre o filme, incluindo o pôster e a nota.
+            </p>
+          </div>
+        </li>
+
+        <li class="challerDays__item">
+          <div class="challerDays__decoration"></div>
+          <span class="challerDays__title">Dia 5</span>
+          <div class="challerDays__container">
+            <p class="challerDays__description">
+              Nesse ponto, você terá feito muitos avanços na modelagem do código, mas provavelmente ainda terá códigos expostos. A sua tarefa será encapsular algumas das chamadas desenvolvidas até aqui em novas classes.
+            </p>
+          </div>
+        </li>
+
+        <li class="challerDays__item">
+          <div class="challerDays__decoration"></div>
+          <span class="challerDays__title">Dia 6</span>
+          <div class="challerDays__container">
+            <p class="challerDays__description">
+              Aqui você verá um ponto importante e bem de alto nível. O seu desafio será deixar o seu código mais genérico, ou seja, preparado para receber dados de outras APIs. Para isso, você usará interfaces.
+            </p>
+          </div>
+        </li>
+
+        <li class="challerDays__item">
+          <div class="challerDays__decoration"></div>
+          <span class="challerDays__title">Dia 7</span>
+          <div class="challerDays__container">
+            <p class="challerDays__description">
+              No sétimo e último dia do desafio, você terá a possibilidade de ordenar a sua lista com base em diferentes atributos, utilizando a classe Collections e as interfaces Comparable e Comparator. Você irá fechar com chave de ouro!
+            </p>
+          </div>
+        </li>
+
+
+      </ul>
+
+    </section>
+
+    <section class="backIncription">
+      <div class="backIncription--padd">
+        <div class="header__form-container header__form-container--width">
+          <form action="#" method="post" class="header__form">
+            <h3 class="header-title">Inscreva-se</h3>
+            <h4 class="header-subtitle">gratuitamente</h4>
+            <input type="text" id="header-input" class="header-input header-input--user" name="name" placeholder="Nome"
+              required>
+            <input type="text" id="header-input" class="header-input header-input--email" name="email" placeholder="Email"
+              required>
+            <button class="btn-registration">
+              Quero me inscrever já!
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="questions">
+        <h2 class="questions__title">Perguntas Frequentes</h2>
+        <img src="assets/images/details-white.svg" alt="" class="questions-details">
+      </div>
+
+      <div class="faq-bg faq-bg--transpaent">
+
+        <div class="container">
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">1. Como posso me organizar para realizar os exercícios?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Depois de fazer a sua inscrição, você receberá um e-mail por dia com o contexto, a tarefa e os links de material extra sobre o assunto daquele dia. Recomendamos que você reserve pelo menos 1 (uma) hora para ver todo o material e completar o exercício.
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">2. Preciso ser assinante da Alura?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Não. A iniciativa do 7 Days Of Code é aberta para qualquer pessoa que queira participar.
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">3. Qual a diferença do 7 Days Of Code para o Alura Challenge?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                O Alura Challenge propõe um aprendizado baseado no Challenge Based Learning, que a Apple ajudou a criar e é definido em 3 pilares: engajar, investigar e agir. Os Challenges só estão disponíveis para alunos e alunas da Alura e têm uma duração de 4 semanas. Durante as 4 semanas do Challenge, temos eventos como live coding e plantão de dúvidas, que não teremos para o 7 Days Of Code.
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">4. Qual a diferença do 7 Days Of Code para a Imersão da Alura?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                A Imersão da Alura é um conteúdo extenso em vídeos. Disponibilizamos aproximadamente 1h de vídeo todos os dias para quem se inscreveu na Imersão. Além disso, a imersão tem um servidor do Discord para as pessoas tirarem dúvidas e conversarem sobre seus projetos. Já o 7 Days Of Code não possui conteúdo em vídeo e nem canal do Discord específico para quem se inscreveu. É um desafio seu de aprendizado e prática.  
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">5. Para quem é essa iniciativa?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Para quem tem interesse em tecnologia e programação, e quer saber como praticar as habilidades pedidas pelo mercado de trabalho.  
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">6. Quando posso me inscrever?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Você pode se inscrever no dia que preferir e em quantas tecnologias quiser. A partir do momento da sua inscrição, você receberá um e-mail por dia durante 7 dias com dicas do que praticar. 
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">7. A inscrição no 7 Days Of Code me dá acesso à Alura?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Não, essa é uma iniciativa aberta para todo mundo que garante o recebimento dos desafios pelo período proposto (7 dias). Se você tiver acesso à plataforma, terá mais material de estudos à sua disposição.  
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">8. Qual material ou ferramenta preciso para participar?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Isso depende da tecnologia que você escolher praticar. O mínimo que você precisa é uma conta de e-mail para receber o material a partir do momento da sua inscrição.  
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">9. Vai ter certificado?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Melhor que certificado: ao final dos 7 dias, você terá criado alguns projetos, podendo incluí-los no seu portfólio e demonstrar suas habilidades. Compartilhe seus resultados no Instagram, Twitter e LinkedIn!  
+              </p>
+            </div>
+    
+          </div>
+    
+          <div class="faq">
+    
+            <div class="faq__question">
+    
+              <h3 class="faq__title">10. Se eu tiver dúvidas, posso falar com alguém?</h3>
+    
+              <svg version="1.1" class="faq-icon" fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 529.578 529.578" xml:space="preserve"> <g> <g> <path d="M266.032,529.578c146.691,0,263.546-119.342,263.546-263.546S410.237,0,266.032,0S0,119.342,0,266.032 S119.342,529.578,266.032,529.578z M266.032,24.863c131.773,0,238.683,106.91,238.683,238.683s-106.91,238.683-238.683,238.683 S27.349,395.319,27.349,263.546S134.259,24.863,266.032,24.863z"></path> <path d="M261.06,348.08c2.486,2.486,4.973,2.486,7.459,2.486s4.973,0,7.459-2.486L407.75,228.738 c4.973-4.973,4.973-12.431,0-17.404c-4.973-4.973-12.431-4.973-17.404,0L266.032,323.217L141.718,211.334 c-4.973-4.973-12.431-4.973-17.404,0c-4.973,4.973-4.973,12.431,0,17.404L261.06,348.08z"></path> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+    
+            </div>
+    
+            <div class="faq__answer">
+              <p class="faq__description">
+                Se tiver dúvidas, acione a comunidade de desenvolvedores através do seu GitHub e das suas redes sociais e compartilhe o que está fazendo com outras pessoas, para que vocês possam trocar conhecimento.  
+              </p>
+            </div>
+    
+          </div>
+    
+        </div>
+        
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer footer--disabled container">
+    <div class="footer__content">
+      <img src="assets/images/Logo-alura.svg" alt="Logo Alura">
+      <span>&copy 2022 Alura</span>
+    </div>
+  </footer>
+  <div class="footer-divider"></div>
+
+  <script src="assets/js/accordion.js"></script>
+  <script src="assets/js/typewriter.js"></script>
+
+</body>
+
+</html>
