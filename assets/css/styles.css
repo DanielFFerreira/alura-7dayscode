@@ -37,13 +37,13 @@ a {
 }
 
 .line-yellow {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: 2px;
   background-color: var(--yellow);
 }
 .line-yellow--marginTop {
-  margin-top: 8em;
+  margin: 5em;
 }
 
 .title-yellow {
@@ -416,8 +416,6 @@ a {
 .backIncription {
   background-image: url("/assets/images/img_inscricao.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: left top -8rem;
 }
 .backIncription--padd {
   padding: 10em;
@@ -895,6 +893,11 @@ svg {
   .learning__container {
     padding: 4.4rem 7.2rem;
   }
+
+  .backIncription {
+    background-size: 214%;
+    background-position: left -18rem top -3rem;
+  }
 }
 @media screen and (min-width: 999px) {
   .event__description {
@@ -939,6 +942,11 @@ svg {
   }
   .event__item:nth-child(3) {
     margin-bottom: 0;
+  }
+
+  .backIncription {
+    background-size: 100%;
+    background-position: left top -8rem;
   }
 }
 
