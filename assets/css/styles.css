@@ -406,6 +406,9 @@ a {
   text-align: center;
   color: var(--white);
 }
+.practice--marTop {
+  margin-top: 3em;
+}
 .practice__title {
   margin: 3rem auto;
   font-family: "Roboto mono", sans-serif;
@@ -980,6 +983,10 @@ svg {
   .backIncription {
     background-size: 100%;
     background-position: left top -8rem;
+  }
+
+  .questions--fontSize {
+    font-size: 2.5rem;
   }
 }
 
