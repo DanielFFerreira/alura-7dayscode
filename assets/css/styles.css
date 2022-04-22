@@ -532,7 +532,7 @@ a {
   display: block;
   position: absolute;
   left: 24px;
-  top: 106px;
+  top: 30px;
   margin-top: 1.5rem;
   background-color: var(--yellow);
   height: 73%;
@@ -811,7 +811,7 @@ svg {
 
   .challerDays__item::after {
     content: "";
-    height: 75%;
+    height: 78%;
   }
 }
 @media screen and (min-width: 460px) {
