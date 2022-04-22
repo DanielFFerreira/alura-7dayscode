@@ -250,6 +250,17 @@
 }
 
 @media screen and (min-width: 999px) {
+
+  .header {
+    &__registration {
+      &--width {
+        width: 440px;
+      }
+    }
+    &--logo {
+      justify-content: flex-start;
+    }
+  }
   .event {
     &__description {
       font-size: 1.25em;

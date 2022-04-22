@@ -250,6 +250,9 @@ a {
   display: flex;
   align-items: end;
 }
+.instructors__list--mario {
+  background-image: url("/assets/images/mario.png");
+}
 .instructors__description {
   font-family: "Roboto Mono", sans-serif;
   text-align: center;
@@ -900,6 +903,13 @@ svg {
   }
 }
 @media screen and (min-width: 999px) {
+  .header__registration--width {
+    width: 440px;
+  }
+  .header--logo {
+    justify-content: flex-start;
+  }
+
   .event__description {
     font-size: 1.25em;
   }
