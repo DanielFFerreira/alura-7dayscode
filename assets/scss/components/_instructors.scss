@@ -33,6 +33,10 @@
     display: flex;
     align-items: end;
 
+    &--maxWidth {
+      max-width: 315px !important;
+    }
+
     &--mario {
       background-image: url('/assets/images/mario.png');
     }

@@ -253,6 +253,9 @@ a {
   display: flex;
   align-items: end;
 }
+.instructors__list--maxWidth {
+  max-width: 315px !important;
+}
 .instructors__list--mario {
   background-image: url("/assets/images/mario.png");
 }
@@ -405,6 +408,9 @@ a {
   flex-direction: column;
   text-align: center;
   color: var(--white);
+}
+.practice--marTop {
+  margin-top: 3em;
 }
 .practice__title {
   margin: 3rem auto;
@@ -980,6 +986,10 @@ svg {
   .backIncription {
     background-size: 100%;
     background-position: left top -8rem;
+  }
+
+  .questions--fontSize {
+    font-size: 2.5rem;
   }
 }
 
