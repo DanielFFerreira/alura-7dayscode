@@ -48,12 +48,20 @@
     &--matheus {
       background-image: url('/assets/images/matheus.png');
     }
+    &--pauloVasconcellos {
+      background-image: url('/assets/images/paulo-vasconcellos.png');
+      background-position: 44% center;
+    }
 
   }
   
   &__description {
     font-family: "Roboto Mono",sans-serif;
     text-align: center;
+
+    &--fontSize {
+      font-size: 12px;
+    }
   }
   &__text {
     font-family: "Inter",sans-serif;
