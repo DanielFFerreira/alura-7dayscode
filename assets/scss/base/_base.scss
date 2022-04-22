@@ -36,7 +36,7 @@ a {
   width: 1150px;
 }
 .line-yellow { 
-  width: 90%;
+  max-width: 90%;
   margin: 0 auto;
   height: 2px;
   background-color: var(--yellow);
