@@ -262,6 +262,9 @@ a {
 .instructors__list--giovanna {
   background-image: url("/assets/images/giovanna.png");
 }
+.instructors__list--matheus {
+  background-image: url("/assets/images/matheus.png");
+}
 .instructors__description {
   font-family: "Roboto Mono", sans-serif;
   text-align: center;
