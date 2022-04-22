@@ -77,14 +77,21 @@
     }
   }
   .backIncription {
-    background-image: url('/assets/images/img_inscricao.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    background-position: left top -8rem;
+
+    background-size: 490%;
+    background-position: left -14rem top -8rem;
   
     &--padd {
       padding: 2.4em;
+    }
+  }
+
+  .challerDays {
+    &__item {
+      &::after {
+        content: '';
+        height: calc(73% + 38px);
+      }
     }
   }
 }
@@ -124,6 +131,17 @@
     }
     
   }
+
+
+  .challerDays {
+    &__item {
+      &::after {
+        content: '';
+        height: 75%;
+      }
+    }
+  }
+
   
 }
 
