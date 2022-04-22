@@ -226,6 +226,9 @@ a {
   background-repeat: no-repeat;
   background-position: left top 34rem;
 }
+.instructors__card {
+  width: 100%;
+}
 .instructors__container {
   display: flex;
   justify-content: center;
@@ -282,6 +285,7 @@ a {
 .instructors__links {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 2em;
 }
