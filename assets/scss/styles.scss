@@ -68,6 +68,11 @@
 
   }
   .instructors {
+
+    &--fontSize {
+      font-size: 12px;
+    }
+
     &__container {
       flex-direction: column;
     }
